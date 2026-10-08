@@ -61,8 +61,6 @@ nav.ciudades a.pendiente { color: var(--suave); font-weight: 400; }
   background: var(--aviso); border-left: 5px solid var(--aviso-borde);
   border-radius: 8px; padding: .8rem 1rem; margin: 1rem 0;
 }
-.abuela { border-left-color: var(--oliva); background: color-mix(in srgb, var(--oliva) 12%, var(--fondo)); }
-.abuela strong:first-child::before { content: "♿ "; }
 .dia { position: relative; }
 .dia .fecha {
   display: inline-block; font-weight: 700; color: var(--terracota);
