@@ -97,3 +97,17 @@ footer { margin-top: 3rem; padding: 1.5rem 0 2.5rem; border-top: 1px solid var(-
   details:not([open]) > div { display: block; }
   nav.ciudades, .boton { display: none; }
 }
+
+header.portada .barra {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: .75rem; margin-bottom: .8rem;
+}
+header.portada .barra.solo { justify-content: flex-end; }
+header.portada .barra .migas { margin: 0; }
+header.portada a.boton-fotos {
+  background: #fff; color: #9a4325; text-decoration: none; font-weight: 700;
+  font-size: .9rem; padding: .45rem 1rem; border-radius: 999px; white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,.18);
+}
+header.portada a.boton-fotos:hover, header.portada a.boton-fotos:focus-visible { background: #fdebe2; }
+@media print { header.portada a.boton-fotos { display: none; } }
